@@ -10,7 +10,6 @@ class Main4 {
         int zeros = 0;
         for (int i = 0; i< 8; i++){
             dades[i] = llegir.nextInt();
-
         }
         for (int i = 0; i < dades.length; i++){
             if (dades[i] > 0){
@@ -20,6 +19,10 @@ class Main4 {
             }else {
                 zeros++;
             }
+        }
+        System.out.println("Valors introduits: ");
+        for (int i = 0; i < dades.length; i++) {
+            System.out.println("[" + (i + 1) + "]" + dades[i]);
         }
         System.out.println("Positius: " + positius);
         System.out.println("Negatius: " + negatius);

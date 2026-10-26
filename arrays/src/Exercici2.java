@@ -7,6 +7,10 @@ class Main2 {
         for (int i = 0; i < 6; i++) {
             dades[i] = llegir.nextInt();
         }
+        System.out.println("Valors introduits: ");
+        for (int i = 0; i < dades.length; i++) {
+            System.out.println("[" + (i + 1) + "]" + dades[i]);
+        }
         System.out.print("eecorregut invers: [");
         for (int i = 5; i >= 0; i--) {
             System.out.print(dades[i]);

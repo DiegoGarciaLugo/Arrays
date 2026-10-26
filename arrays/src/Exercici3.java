@@ -14,6 +14,10 @@ class Main3 {
             suma += dades[i];
         }
         double media = suma / dades.length;
+        System.out.println("Valors introduits: ");
+        for (int i = 0; i < dades.length; i++) {
+            System.out.println("[" + (i + 1) + "]" + dades[i]);
+        }
         System.out.println(" La mitjana aritmetica es: " + media);
     }
 }
