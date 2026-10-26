@@ -15,9 +15,8 @@ class Main1 {
                 System.out.print(", ");
             }
         }
-        System.out.println("."); // Punto final
+        System.out.println(".");
 
-        // 3. Mostrar el resumen de los datos (¡Corregido!)
         System.out.println("longitud: " + dades.length);
         System.out.println("primer valor: " + dades[0]);
         System.out.println("ultim valor: " + dades[4]);
