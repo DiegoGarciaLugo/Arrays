@@ -3,8 +3,8 @@ import java.util.Scanner;
 class Main6 {
     public static void main(String[] args) {
         Scanner llegir = new Scanner(System.in);
-        int[] dades = new int[8];
-        for (int i = 0; i < 8; i++) {
+        int[] dades = new int[7];
+        for (int i = 0; i < 7; i++) {
             dades[i] = llegir.nextInt();
         }
         System.out.printf("Introdueix la teva adivinança");
