@@ -4,6 +4,7 @@ class Main4 {
 
     public static void main(String[] args){
         Scanner llegir = new Scanner (System.in);
+        System.out.println("Introdueix 8 nombres");
         int[] dades = new int[8];
         int positius = 0;
         int negatius = 0;
@@ -27,5 +28,6 @@ class Main4 {
         System.out.println("Positius: " + positius);
         System.out.println("Negatius: " + negatius);
         System.out.println("Zeros: " + zeros);
+        llegir.close();
     }
 }

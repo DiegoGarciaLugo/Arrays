@@ -3,6 +3,7 @@ import java.util.Scanner;
 class Main6 {
     public static void main(String[] args) {
         Scanner llegir = new Scanner(System.in);
+        System.out.println("introdueix 7 nombres");
         int[] dades = new int[7];
         for (int i = 0; i < 7; i++) {
             dades[i] = llegir.nextInt();
@@ -10,7 +11,7 @@ class Main6 {
         System.out.printf("Introdueix la teva adivinança");
         int enter = llegir.nextInt();
         int posicio = -1;
-        for (int i=0; i<8; i++){
+        for (int i=0; i<7; i++){
             if (dades [i] == enter){
                 posicio = i;
                 break;
@@ -21,5 +22,6 @@ class Main6 {
         } else {
             System.out.println("No trobat");
         }
+        llegir.close();
     }
 }

@@ -39,5 +39,6 @@ class Main10 {
             }
         }
         System.out.println("].");
+        llegir.close();
     }
 }

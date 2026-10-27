@@ -3,6 +3,7 @@ import java.util.Scanner;
 class Main5 {
     public static void main(String[] args) {
         Scanner llegir = new Scanner(System.in);
+        System.out.println("introdueix 7 nombres");
         int[] dades = new int[7];
         for (int i = 0; i < 7; i++) {
             dades[i] = llegir.nextInt();
@@ -24,5 +25,6 @@ class Main5 {
         }
         System.out.println("El valor maxim es: "+ maxim);
         System.out.println("El valor minim es: "+ minim);
+        llegir.close();
     }
 }

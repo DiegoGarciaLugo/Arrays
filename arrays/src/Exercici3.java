@@ -4,6 +4,7 @@ class Main3 {
 
     public static void main(String[] args) {
         Scanner llegir = new Scanner(System.in);
+        System.out.println("introdueix 5 nombres:");
         int[] dades = new int[5];
         double suma = 0.0;
         for (int i = 0; i < 5; i++) {
@@ -19,5 +20,6 @@ class Main3 {
             System.out.println("[" + (i + 1) + "]" + dades[i]);
         }
         System.out.println(" La mitjana aritmetica es: " + media);
+        llegir.close();
     }
 }

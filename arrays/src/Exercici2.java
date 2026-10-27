@@ -3,6 +3,7 @@ import java.util.Scanner;
 class Main2 {
     public static void main(String[] args) {
         Scanner llegir = new Scanner(System.in);
+        System.out.println("introdueix 6 nombres");
         int[] dades = new int[6];
         for (int i = 0; i < 6; i++) {
             dades[i] = llegir.nextInt();
@@ -27,5 +28,6 @@ class Main2 {
             }
         }
         System.out.println("]");
+        llegir.close();
     }
 }
